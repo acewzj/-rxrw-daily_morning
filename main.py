@@ -74,8 +74,8 @@ client = WeChatClient(app_id, app_secret)
 
 wm = WeChatMessage(client)
 
-wea, temperature = get_weather(city)
-# wea = "晴"
+# wea, temperature = get_weather(city)
+wea = "晴"
 temperature = get_iciba_everyday_chicken_soup()
 
 data = {
